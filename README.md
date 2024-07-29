@@ -10,7 +10,6 @@ The data was cleaned prior to application of the model. The target variable was 
 
 The model was run and evaluated, with three optimizations performed. The results are discussed below.
 
-![Model_0](https://github.com/user-attachments/assets/09adae39-b2f2-443a-984e-99b03f1301d6)
 
 The inital model parameters:   
     Hidden layers: 2   
@@ -19,6 +18,8 @@ The inital model parameters:
     Activation function (outer): sigmoid   
     Loss: 0.5562   
     Accuracy: 0.7293   
+![Initial Model](Images/Model_0.png)
+![Results](Images/Model_0_Eval.png)
 
 
 Optimization 1: changed activation function   
@@ -28,8 +29,10 @@ Optimization 1: changed activation function
     Activation function (outer): sigmoid   
     Loss: 0.5583   
     Accuracy: 0.7292   
+![Model Opt. 1](Images/Model_Opt1.png)
+![Results](Images/Model_Opt1_Eval.png)  
 
-    
+
 Optimization 2: changed activation function   
     Hidden layers: 2   
     Neurons by layer: 75, 25   
@@ -37,6 +40,8 @@ Optimization 2: changed activation function
     Activation function (outer): sigmoid   
     Loss: 0.5548   
     Accuracy: 0.7317       
+![Model Opt. 2](Images/Model_Opt2.png) 
+![Results](Images/Model_Opt2_Eval.png)  
 
 
 Optimization 3: sigmoid activation function with added hidden layer, and additional neurons   
@@ -46,7 +51,10 @@ Optimization 3: sigmoid activation function with added hidden layer, and additio
     Activation function (outer): sigmoid   
     Loss: 0.5546  
     Accuracy: 0.7298   
-    
+![Model Opt. 3](Images/Model_Opt3.png)   
+![Results](Images/Model_Opt3_Eval.png) 
+
+
 Optimization of the model was improved by using sigmoid activation functions in the hidden layers, but other attempts at optimization (added layers, different activation functions, additional neurons) only decreased the model's accuracy. The target model performance (0.75 accuracy) was not reached.   
 
 # Summary
