@@ -10,6 +10,7 @@ The data was cleaned prior to application of the model. The target variable was 
 
 The model was run and evaluated, with three optimizations performed. The results are discussed below.
 
+![Model_0](https://github.com/user-attachments/assets/09adae39-b2f2-443a-984e-99b03f1301d6)
 
 The inital model parameters:   
     Hidden layers: 2   
