@@ -6,8 +6,10 @@ This evaluation requires designing a neural network (deep learning model) to pre
 
 # Results
 
+*Data Preprocessing
 The data was cleaned prior to application of the model. The target variable was the column Is_Sucessful. There are 43 features retained in the data. Variables that should be removed from the data are columns where all rows are false or all rows are true.
 
+*Compiling, Training, and Evaluating the Model
 The model was run and evaluated, with three optimizations performed. The results are discussed below.
 
 
